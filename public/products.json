@@ -1,0 +1,85 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Running Shoes",
+            "image": "https://img.freepik.com/free-photo/sneakers-shoes_1203-8036.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+            "price": 49.99,
+            "rating": 4.5,
+            "title": "Comfortable running shoes",
+            "category": "Shoes"
+        },
+        {
+            "id": 2,
+            "name": "Casual Sneakers",
+            "image": "https://img.freepik.com/free-photo/women-s-red-high-heel-shoes-formal-fashion_53876-101501.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+            "price": 39.99,
+            "rating": 4.2,
+            "title": "Stylish casual sneakers",
+            "category": "Shoes"
+        },
+        {
+            "id": 3,
+            "name": "Formal Loafers",
+            "image": "https://img.freepik.com/free-photo/red-leather-shoes-stand-light-wooden-floor_8353-691.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+            "price": 59.99,
+            "rating": 4.7,
+            "title": "Elegant formal loafers",
+            "category": "Shoes"
+        },
+        {
+            "id": 4,
+            "name": "T-Shirt",
+            "image": "https://img.freepik.com/free-photo/fashion-polo-shirt-men_74190-4858.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+            "price": 19.99,
+            "rating": 4.0,
+            "title": "Comfortable cotton T-shirt",
+            "category": "Clothes"
+        },
+        {
+            "id": 5,
+            "name": "Jeans",
+            "image": "https://img.freepik.com/free-photo/pile-jeans_144627-848.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+            "price": 34.99,
+            "rating": 4.3,
+            "title": "Classic denim jeans",
+            "category": "Clothes"
+        },
+        {
+            "id": 6,
+            "name": "Hoodie",
+            "image": "https://img.freepik.com/premium-psd/label-shirts-with-any-color-mockup-apparel-business_318596-64.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+            "price": 29.99,
+            "rating": 4.1,
+            "title": "Warm and cozy hoodie",
+            "category": "Clothes"
+        },
+        {
+            "id": 7,
+            "name": "Digital Sports Watch",
+            "image": "https://img.freepik.com/free-photo/close-up-clock-with-time-change_23-2149241142.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+            "price": 29.99,
+            "rating": 4.4,
+            "title": "Water-resistant digital sports watch",
+            "category": "Watches"
+        },
+        {
+            "id": 8,
+            "name": "Classic Leather Watch",
+            "image": "https://img.freepik.com/premium-photo/men-s-mechanical-watch-dark-background_488220-26725.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+            "price": 79.99,
+            "rating": 4.8,
+            "title": "Elegant leather strap watch",
+            "category": "Watches"
+        },
+        {
+            "id": 9,
+            "name": "Smart Watch",
+            "image": "https://img.freepik.com/free-photo/virtual-reality-headset-controls-your-futuristic-car-generated-by-ai_188544-13295.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+            "price": 149.99,
+            "rating": 4.6,
+            "title": "Feature-rich smartwatch",
+            "category": "Watches"
+        }
+    ]
+}
