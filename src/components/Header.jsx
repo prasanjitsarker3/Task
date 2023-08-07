@@ -5,7 +5,9 @@ const Header = () => {
     const options = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/tab">Tab Product</Link></li>
-        <li><Link to="/">Information</Link></li>
+        <li><Link to="/search">Search</Link></li>
+        <li><Link to="/counter">Counter</Link></li>
+        <li><Link to="/pant">Pant</Link></li>
     </>
     return (
         <div>

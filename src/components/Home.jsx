@@ -5,7 +5,7 @@ import '@smastrom/react-rating/style.css'
 const Home = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch("products.json")
+        fetch("products.json") 
             .then(res => res.json())
             .then(data => setProducts(data.products))
     }, [])

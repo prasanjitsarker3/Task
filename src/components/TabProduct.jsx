@@ -19,7 +19,7 @@ const TabProduct = () => {
     const watch = tabs.filter(project => project.category === "Watches");
 
     return (
-        <div>
+        <div> 
             <h1 className='text-center text-xl py-5'>Category way make three tab </h1>
             <div>
                 <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>

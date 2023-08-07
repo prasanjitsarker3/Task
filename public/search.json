@@ -1,0 +1,104 @@
+{
+    "trains": [
+        {
+            "train_number": "TR123",
+            "departure_station": "City A",
+            "departure_time": "08:00 AM",
+            "arrival_station": "City B",
+            "arrival_time": "11:30 AM",
+            "duration": "3h 30m",
+            "price": "$50",
+            "available_seats": 120
+        },
+        {
+            "train_number": "TR456",
+            "departure_station": "City A",
+            "departure_time": "10:30 AM",
+            "arrival_station": "City B",
+            "arrival_time": "02:00 PM",
+            "duration": "3h 30m",
+            "price": "$60",
+            "available_seats": 80
+        },
+        {
+            "train_number": "TR789",
+            "departure_station": "City A",
+            "departure_time": "02:00 PM",
+            "arrival_station": "City B",
+            "arrival_time": "05:30 PM",
+            "duration": "3h 30m",
+            "price": "$55",
+            "available_seats": 100
+        },
+        {
+            "train_number": "TR321",
+            "departure_station": "City B",
+            "departure_time": "08:30 AM",
+            "arrival_station": "City A",
+            "arrival_time": "12:00 PM",
+            "duration": "3h 30m",
+            "price": "$45",
+            "available_seats": 90
+        },
+        {
+            "train_number": "TR654",
+            "departure_station": "City B",
+            "departure_time": "11:00 AM",
+            "arrival_station": "City A",
+            "arrival_time": "02:30 PM",
+            "duration": "3h 30m",
+            "price": "$65",
+            "available_seats": 70
+        },
+        {
+            "train_number": "TR987",
+            "departure_station": "City B",
+            "departure_time": "02:30 PM",
+            "arrival_station": "City A",
+            "arrival_time": "06:00 PM",
+            "duration": "3h 30m",
+            "price": "$58",
+            "available_seats": 110
+        },
+        {
+            "train_number": "TR987",
+            "departure_station": "Dhaka",
+            "departure_time": "02:30 PM",
+            "arrival_station": "Kolkata",
+            "arrival_time": "06:00 PM",
+            "duration": "3h 30m",
+            "price": "$58",
+            "available_seats": 110
+        },
+        {
+            "train_number": "TR987",
+            "departure_station": "Dhaka",
+            "departure_time": "07:30 PM",
+            "arrival_station": "Kolkata",
+            "arrival_time": "06:00 AM",
+            "duration": "3h 30m",
+            "price": "$58",
+            "available_seats": 110
+        },
+        {
+            "train_number": "TR987",
+            "departure_station": "Kolkata",
+            "departure_time": "05:30 PM",
+            "arrival_station": "Dhaka",
+            "arrival_time": "06:00 PM",
+            "duration": "3h 30m",
+            "price": "$58",
+            "available_seats": 110
+        },
+        {
+            "train_number": "TR987",
+            "departure_station": "Kolkata",
+            "departure_time": "09:30 PM",
+            "arrival_station": "Dhaka",
+            "arrival_time": "06:00 AM",
+            "duration": "3h 30m",
+            "price": "$58",
+            "available_seats": 110
+        }
+    ]
+}
