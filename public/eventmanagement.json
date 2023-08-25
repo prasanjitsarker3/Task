@@ -1,0 +1,591 @@
+[
+    {
+        "event_id": "s123",
+        "event_name": "City Marathon 2023",
+        "start_date": "2023-11-05T07:00:00",
+        "end_date": "2023-11-05T12:00:00",
+        "location": "City Streets",
+        "event_type": "public",
+        "event_category": "Sports",
+        "organizer": {
+            "organizer_name": "City Sports Association",
+            "contact_email": "info@sportsassociation.com",
+            "website": "https://www.sportsassociation.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/medium-shot-man-taking-interview_23-2149900293.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.sportsassociation.com/images/gallery/image1.jpg",
+            "https://www.sportsassociation.com/images/gallery/image2.jpg"
+        ],
+        "description": "Join thousands of runners for a thrilling marathon experience.",
+        "participants": 5000
+    },
+    {
+        "event_id": "w123",
+        "event_name": "John and Jane's Wedding",
+        "start_date": "2023-09-15T12:00:00",
+        "end_date": "2023-09-15T22:00:00",
+        "location": "Elegant Gardens Venue",
+        "event_type": "private",
+        "event_category": "Wedding",
+        "organizer": {
+            "organizer_name": "John and Jane",
+            "contact_email": "johnandjane@example.com",
+            "website": ""
+        },
+        "main_image": "https://img.freepik.com/free-photo/full-shot-couple-posing-wedding_23-2149956403.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.example.com/images/gallery/image1.jpg",
+            "https://www.example.com/images/gallery/image2.jpg"
+        ],
+        "description": "Celebrate the union of John and Jane in an intimate ceremony.",
+        "guests": 100,
+        "wedding_party": [
+            {
+                "role": "Bride",
+                "name": "Jane Doe",
+                "photo": "https://www.example.com/wedding-party/jane-doe.jpg"
+            },
+            {
+                "role": "Groom",
+                "name": "John Smith",
+                "photo": "https://www.example.com/wedding-party/john-smith.jpg"
+            }
+        ]
+    },
+    {
+        "event_id": "t123",
+        "event_name": "Tech Expo 2023",
+        "start_date": "2023-08-20T10:00:00",
+        "end_date": "2023-08-22T18:00:00",
+        "location": "Tech Convention Center",
+        "event_type": "public",
+        "event_category": "Technology",
+        "organizer": {
+            "organizer_name": "Tech Innovators Group",
+            "contact_email": "info@techinnovators.com",
+            "website": "https://www.techinnovators.com"
+        },
+        "main_image": "https://img.freepik.com/premium-photo/hand-touching-virtual-world-with-connection-network_50039-1565.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.techinnovators.com/images/gallery/image1.jpg",
+            "https://www.techinnovators.com/images/gallery/image2.jpg"
+        ],
+        "description": "Experience cutting-edge technologies and innovations.",
+        "exhibitors": [
+            {
+                "exhibitor_id": "t456",
+                "exhibitor_name": "InnovateTech",
+                "exhibitor_description": "Showcasing the latest gadgets and inventions.",
+                "exhibitor_logo": "https://www.techinnovators.com/exhibitors/innovate-tech.jpg"
+            }
+        ],
+        "workshops": [
+            {
+                "workshop_id": "t789",
+                "workshop_title": "Building AI-Powered Chatbots",
+                "start_time": "2023-08-21T13:00:00",
+                "end_time": "2023-08-21T15:00:00",
+                "instructor": "Dr. Emily Johnson",
+                "room": "Workshop Room B",
+                "description": "Learn to create intelligent chatbots using AI techniques.",
+                "registration_link": "https://www.techinnovators.com/workshops/ai-chatbots"
+            }
+        ]
+    },
+    {
+        "event_id": "c789",
+        "event_name": "Summer Music Festival",
+        "start_date": "2023-06-30T16:00:00",
+        "end_date": "2023-07-02T23:00:00",
+        "location": "Sunset Park",
+        "event_type": "public",
+        "event_category": "Concerts",
+        "organizer": {
+            "organizer_name": "Sound Waves Entertainment",
+            "contact_email": "info@soundwaves.com",
+            "website": "https://www.soundwaves.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/rear-view-large-group-music-fans-front-stage-during-music-concert-by-night-copy-space_637285-623.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.soundwaves.com/images/gallery/image1.jpg",
+            "https://www.soundwaves.com/images/gallery/image2.jpg"
+        ],
+        "description": "Experience three days of live music performances and entertainment.",
+        "performers": [
+            {
+                "performer_id": "c123",
+                "performer_name": "Rock Band Revival",
+                "performer_description": "Bringing classic rock anthems to the stage.",
+                "performer_image": "https://www.soundwaves.com/performers/rock-band-revival.jpg"
+            }
+        ],
+        "stages": [
+            {
+                "stage_id": "c456",
+                "stage_name": "Main Stage",
+                "stage_description": "Featuring headlining acts and popular artists.",
+                "stage_schedule": [
+                    {
+                        "start_time": "2023-07-01T18:00:00",
+                        "end_time": "2023-07-01T22:00:00",
+                        "performance": "Rock Band Revival"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "f234",
+        "event_name": "Harvest Festival",
+        "start_date": "2023-10-05T10:00:00",
+        "end_date": "2023-10-08T20:00:00",
+        "location": "Green Valley Park",
+        "event_type": "public",
+        "event_category": "Festival",
+        "organizer": {
+            "organizer_name": "Local Community Council",
+            "contact_email": "info@communitycouncil.org",
+            "website": "https://www.communitycouncil.org"
+        },
+        "main_image": "https://img.freepik.com/free-photo/mexican-culture-with-colorful-birds_23-2149672965.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.communitycouncil.org/images/gallery/image1.jpg",
+            "https://www.communitycouncil.org/images/gallery/image2.jpg"
+        ],
+        "description": "Celebrate the harvest season with food, music, and family fun.",
+        "attractions": [
+            {
+                "attraction_id": "f567",
+                "attraction_name": "Pumpkin Patch",
+                "attraction_description": "Pick your own pumpkins and enjoy pumpkin-themed activities.",
+                "attraction_image": "https://www.communitycouncil.org/attractions/pumpkin-patch.jpg"
+            }
+        ],
+        "performers": [
+            {
+                "performer_id": "c123",
+                "performer_name": "Rock Band Revival",
+                "performer_description": "Bringing classic rock anthems to the stage.",
+                "performer_image": "https://www.soundwaves.com/performers/rock-band-revival.jpg"
+            }
+        ],
+        "stages": [
+            {
+                "stage_id": "c456",
+                "stage_name": "Main Stage",
+                "stage_description": "Featuring headlining acts and popular artists.",
+                "stage_schedule": [
+                    {
+                        "start_time": "2023-07-01T18:00:00",
+                        "end_time": "2023-07-01T22:00:00",
+                        "performance": "Rock Band Revival"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "event_id": "b456",
+        "event_name": "Leadership Summit 2023",
+        "start_date": "2023-09-10T09:00:00",
+        "end_date": "2023-09-12T18:00:00",
+        "location": "Executive Conference Center",
+        "event_type": "public",
+        "event_category": "Business",
+        "organizer": {
+            "organizer_name": "Business Leadership Institute",
+            "contact_email": "info@leadershipinstitute.com",
+            "website": "https://www.leadershipinstitute.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/blurred-soft-people-meeting-table-business-people-talking-modern-office-generative-ai_1258-150801.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.leadershipinstitute.com/images/gallery/image1.jpg",
+            "https://www.leadershipinstitute.com/images/gallery/image2.jpg"
+        ],
+        "description": "Enhance your leadership skills and network with industry professionals.",
+        "speakers": [
+            {
+                "speaker_id": "b567",
+                "speaker_name": "Dr. Michelle Anderson",
+                "speaker_bio": "Author and expert in organizational leadership.",
+                "speaker_photo": "https://www.leadershipinstitute.com/speakers/michelle-anderson.jpg"
+            }
+        ],
+        "sessions": [
+            {
+                "session_id": "b789",
+                "session_title": "Effective Communication Strategies",
+                "start_time": "2023-09-11T10:00:00",
+                "end_time": "2023-09-11T11:30:00",
+                "speaker": "Dr. Michelle Anderson",
+                "room": "Conference Room A",
+                "description": "Learn to communicate effectively in leadership roles.",
+                "slides_link": "https://www.leadershipinstitute.com/slides/communication-strategies.pdf"
+            }
+        ]
+    },
+    {
+        "event_id": "s001",
+        "event_name": "City Soccer Championship",
+        "start_date": "2023-09-15T18:00:00",
+        "end_date": "2023-09-15T20:30:00",
+        "location": "City Stadium",
+        "event_type": "public",
+        "event_category": "Sports",
+        "organizer": {
+            "organizer_name": "City Sports Council",
+            "contact_email": "info@citysportscouncil.com",
+            "website": "https://www.citysportscouncil.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/football-soccer-player-black-studio_155003-19182.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.citysportscouncil.com/images/gallery/image1.jpg",
+            "https://www.citysportscouncil.com/images/gallery/image2.jpg"
+        ],
+        "description": "Cheer for your favorite soccer teams in the championship match.",
+        "teams": [
+            {
+                "team_id": "s101",
+                "team_name": "City United",
+                "team_logo": "https://www.citysportscouncil.com/teams/city-united-logo.jpg"
+            },
+            {
+                "team_id": "s102",
+                "team_name": "Metro Strikers",
+                "team_logo": "https://www.citysportscouncil.com/teams/metro-strikers-logo.jpg"
+            }
+        ],
+        "match_info": {
+            "match_type": "Final",
+            "kickoff_time": "2023-09-15T18:00:00",
+            "referee": "John Smith",
+            "stadium": "City Stadium"
+        }
+    },
+    {
+        "event_id": "s002",
+        "event_name": "Annual Golf Classic",
+        "start_date": "2023-08-10T07:00:00",
+        "end_date": "2023-08-12T17:00:00",
+        "location": "Green Links Golf Course",
+        "event_type": "public",
+        "event_category": "Sports",
+        "organizer": {
+            "organizer_name": "Golf Enthusiasts Club",
+            "contact_email": "info@golfenthusiastsclub.com",
+            "website": "https://www.golfenthusiastsclub.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/young-male-soccer-football-player-training-isolated-gradient-wall_155003-37551.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.golfenthusiastsclub.com/images/gallery/image1.jpg",
+            "https://www.golfenthusiastsclub.com/images/gallery/image2.jpg"
+        ],
+        "description": "Participate in a prestigious golf tournament at a scenic course.",
+        "participants": 120,
+        "prizes": {
+            "first_place": "$10,000",
+            "second_place": "$5,000",
+            "third_place": "$2,500"
+        }
+    },
+    {
+        "event_id": "w001",
+        "event_name": "Traditional Wedding Celebration",
+        "start_date": "2023-07-20T12:00:00",
+        "end_date": "2023-07-20T23:00:00",
+        "location": "Family Residence",
+        "event_type": "private",
+        "event_category": "Wedding",
+        "organizer": {
+            "organizer_name": "John and Jane",
+            "contact_email": "johnandjane@example.com",
+            "website": ""
+        },
+        "main_image": "https://img.freepik.com/free-photo/groom-putting-ring-bride-s-finger_1157-338.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.example.com/images/gallery/image1.jpg",
+            "https://www.example.com/images/gallery/image2.jpg"
+        ],
+        "description": "A joyful celebration of love and unity in the presence of family and friends.",
+        "guests": 150,
+        "ceremony_details": {
+            "ceremony_time": "2023-07-20T14:00:00",
+            "ceremony_location": "Garden",
+            "officiant": "Reverend Sarah Williams"
+        },
+        "reception_details": {
+            "reception_time": "2023-07-20T18:00:00",
+            "reception_location": "Backyard Tent",
+            "menu": [
+                "Appetizers",
+                "Main Course",
+                "Desserts"
+            ]
+        }
+    },
+    {
+        "event_id": "w002",
+        "event_name": "Beachside Destination Wedding",
+        "start_date": "2023-09-10T15:00:00",
+        "end_date": "2023-09-10T23:59:00",
+        "location": "Tropical Beach Resort",
+        "event_type": "private",
+        "event_category": "Wedding",
+        "organizer": {
+            "organizer_name": "Amy and Michael",
+            "contact_email": "amyandmichael@example.com",
+            "website": ""
+        },
+        "main_image": "https://img.freepik.com/free-photo/beautiful-wedding-walk-nature-ukraine-sumy_8353-5800.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+        "image_gallery": [
+            "https://www.example.com/images/gallery/image1.jpg",
+            "https://www.example.com/images/gallery/image2.jpg"
+        ],
+        "description": "Exchange vows in a breathtaking beachfront ceremony surrounded by the beauty of nature.",
+        "guests": 50,
+        "ceremony_details": {
+            "ceremony_time": "2023-09-10T17:00:00",
+            "ceremony_location": "Beach",
+            "officiant": "Officiant Name"
+        },
+        "reception_details": {
+            "reception_time": "2023-09-10T18:30:00",
+            "reception_location": "Ocean View Ballroom",
+            "menu": [
+                "Seafood Delights",
+                "Tropical Cocktails",
+                "Dessert Buffet"
+            ]
+        },
+        "accommodation": {
+            "hotel_name": "Tropical Beach Resort",
+            "room_options": [
+                "Deluxe Suite",
+                "Oceanfront Villa"
+            ],
+            "booking_link": "https://www.example.com/hotel-booking"
+        }
+    },
+    {
+        "event_id": "t001",
+        "event_name": "TechX Conference 2023",
+        "start_date": "2023-10-25T09:00:00",
+        "end_date": "2023-10-27T18:00:00",
+        "location": "Tech Expo Center",
+        "event_type": "public",
+        "event_category": "Technology",
+        "organizer": {
+            "organizer_name": "Tech Innovators Inc.",
+            "contact_email": "info@techinnovators.com",
+            "website": "https://www.techinnovators.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/futuristic-smart-city-with-5g-global-network-technology_53876-98438.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.techinnovators.com/images/gallery/image1.jpg",
+            "https://www.techinnovators.com/images/gallery/image2.jpg"
+        ],
+        "description": "Explore the latest trends and innovations in the world of technology.",
+        "speakers": [
+            {
+                "speaker_id": "t101",
+                "speaker_name": "Dr. Lisa Chen",
+                "speaker_bio": "AI Researcher and Tech Advocate.",
+                "speaker_photo": "https://www.techinnovators.com/speakers/lisa-chen.jpg"
+            }
+        ],
+        "sessions": [
+            {
+                "session_id": "t201",
+                "session_title": "Future of AI and Automation",
+                "start_time": "2023-10-26T10:00:00",
+                "end_time": "2023-10-26T11:30:00",
+                "speaker": "Dr. Lisa Chen",
+                "room": "Hall A",
+                "description": "Discover how AI is shaping the future of automation.",
+                "slides_link": "https://www.techinnovators.com/slides/future-of-ai.pdf"
+            }
+        ]
+    },
+    {
+        "event_id": "t002",
+        "event_name": "CodeFest Hackathon 2023",
+        "start_date": "2023-08-15T12:00:00",
+        "end_date": "2023-08-17T18:00:00",
+        "location": "Tech Hub Workspace",
+        "event_type": "public",
+        "event_category": "Technology",
+        "organizer": {
+            "organizer_name": "CodeFest Community",
+            "contact_email": "info@codefestcommunity.com",
+            "website": "https://www.codefestcommunity.com"
+        },
+        "main_image": "https://img.freepik.com/premium-photo/hand-use-mobile-phone-circle-network-communication-technology-globaldata_28974-432.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.codefestcommunity.com/images/gallery/image1.jpg",
+            "https://www.codefestcommunity.com/images/gallery/image2.jpg"
+        ],
+        "description": "Join a fast-paced hackathon to develop innovative solutions in technology.",
+        "participants": 100,
+        "prizes": {
+            "first_place": "Cash Prize $5,000",
+            "second_place": "Cash Prize $2,500",
+            "third_place": "Cash Prize $1,000"
+        },
+        "themes": [
+            "HealthTech",
+            "EduTech",
+            "FinTech"
+        ],
+        "judges": [
+            {
+                "judge_id": "t301",
+                "judge_name": "Emily Carter",
+                "judge_bio": "CTO of TechCo.",
+                "judge_photo": "https://www.codefestcommunity.com/judges/emily-carter.jpg"
+            }
+        ]
+    },
+    {
+        "event_id": "c001",
+        "event_name": "Pop Sensation Live in Concert",
+        "start_date": "2023-09-05T19:00:00",
+        "end_date": "2023-09-05T22:00:00",
+        "location": "City Arena",
+        "event_type": "public",
+        "event_category": "Concerts",
+        "organizer": {
+            "organizer_name": "Star Entertainment",
+            "contact_email": "info@starentertainment.com",
+            "website": "https://www.starentertainment.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/people-festival_1160-736.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.starentertainment.com/images/gallery/image1.jpg",
+            "https://www.starentertainment.com/images/gallery/image2.jpg"
+        ],
+        "description": "Get ready for a night of electrifying pop music and captivating performances.",
+        "artists": [
+            {
+                "artist_id": "c101",
+                "artist_name": "Samantha Sparks",
+                "artist_genre": "Pop",
+                "artist_photo": "https://www.starentertainment.com/artists/samantha-sparks.jpg"
+            }
+        ],
+        "setlist": [
+            "Hits Medley",
+            "Unplugged Acoustics",
+            "Dance Extravaganza"
+        ]
+    },
+    {
+        "event_id": "c002",
+        "event_name": "Epic Rock Showcase",
+        "start_date": "2023-08-20T18:30:00",
+        "end_date": "2023-08-20T23:00:00",
+        "location": "Rock Haven Arena",
+        "event_type": "public",
+        "event_category": "Concerts",
+        "organizer": {
+            "organizer_name": "RockRevolution Events",
+            "contact_email": "info@rockrevolutionevents.com",
+            "website": "https://www.rockrevolutionevents.com"
+        },
+        "main_image": "https://img.freepik.com/premium-photo/concert-crowd-music-fanclub-hand-using-cellphone-taking-video-record-live-stream_41418-3380.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.rockrevolutionevents.com/images/gallery/image1.jpg",
+            "https://www.rockrevolutionevents.com/images/gallery/image2.jpg"
+        ],
+        "description": "Experience the power of live rock music with top bands from around the world.",
+        "bands": [
+            {
+                "band_id": "c201",
+                "band_name": "ThunderStrike",
+                "band_genre": "Rock",
+                "band_photo": "https://www.rockrevolutionevents.com/bands/thunderstrike.jpg"
+            }
+        ],
+        "setlist": [
+            "Classic Anthems",
+            "Epic Guitar Solos",
+            "Unforgettable Encores"
+        ]
+    },
+    {
+        "event_id": "b001",
+        "event_name": "Global Business Summit",
+        "start_date": "2023-09-15T09:00:00",
+        "end_date": "2023-09-17T18:00:00",
+        "location": "International Convention Center",
+        "event_type": "public",
+        "event_category": "Business",
+        "organizer": {
+            "organizer_name": "Global Business Network",
+            "contact_email": "info@globalbusinessnetwork.com",
+            "website": "https://www.globalbusinessnetwork.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/workplace-team-cooperation-businesswoman-laptop-office_1418-44.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.globalbusinessnetwork.com/images/gallery/image1.jpg",
+            "https://www.globalbusinessnetwork.com/images/gallery/image2.jpg"
+        ],
+        "description": "Connect with industry leaders and explore global business trends and opportunities.",
+        "speakers": [
+            {
+                "speaker_id": "b101",
+                "speaker_name": "Alexandra Lee",
+                "speaker_bio": "CEO of VisionTech Inc.",
+                "speaker_photo": "https://www.globalbusinessnetwork.com/speakers/alexandra-lee.jpg"
+            }
+        ],
+        "sessions": [
+            {
+                "session_id": "b201",
+                "session_title": "Innovation in a Changing Landscape",
+                "start_time": "2023-09-16T10:00:00",
+                "end_time": "2023-09-16T11:30:00",
+                "speaker": "Alexandra Lee",
+                "room": "Grand Hall",
+                "description": "Explore strategies for fostering innovation in business.",
+                "slides_link": "https://www.globalbusinessnetwork.com/slides/innovation-strategies.pdf"
+            }
+        ]
+    },
+    {
+        "event_id": "b002",
+        "event_name": "Startup LaunchPad",
+        "start_date": "2023-08-10T13:00:00",
+        "end_date": "2023-08-10T18:00:00",
+        "location": "Tech Hub Workspace",
+        "event_type": "public",
+        "event_category": "Business",
+        "organizer": {
+            "organizer_name": "Innovation Hub",
+            "contact_email": "info@innovationhub.com",
+            "website": "https://www.innovationhub.com"
+        },
+        "main_image": "https://img.freepik.com/free-photo/modern-equipped-computer-lab_23-2149241213.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+        "image_gallery": [
+            "https://www.innovationhub.com/images/gallery/image1.jpg",
+            "https://www.innovationhub.com/images/gallery/image2.jpg"
+        ],
+        "description": "Witness innovative startups pitch their ideas to potential investors.",
+        "startups": [
+            {
+                "startup_id": "b301",
+                "startup_name": "TechGenius",
+                "startup_description": "Revolutionizing the way we interact with technology.",
+                "startup_logo": "https://www.innovationhub.com/startups/techgenius-logo.jpg"
+            }
+        ],
+        "judges": [
+            {
+                "judge_id": "b401",
+                "judge_name": "Jessica Adams",
+                "judge_bio": "Angel Investor and Entrepreneur",
+                "judge_photo": "https://www.innovationhub.com/judges/jessica-adams.jpg"
+            }
+        ]
+    }
+]

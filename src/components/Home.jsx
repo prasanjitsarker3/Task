@@ -1,6 +1,7 @@
 import { Rating } from '@smastrom/react-rating';
 import React, { useEffect, useState } from 'react';
 import '@smastrom/react-rating/style.css'
+import Test from './Service/Test';
 
 const Home = () => {
     const [products, setProducts] = useState([]);
@@ -37,6 +38,8 @@ const Home = () => {
                     </div>)
                 }
             </div>
+
+            <Test></Test>
         </div>
     );
 };

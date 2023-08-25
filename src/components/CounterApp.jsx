@@ -1,29 +1,38 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { decrementCounter, incrementCounter, resetCounter } from './Service/actions/counterAction';
+import { useEffect, useState } from "react";
 
 const CounterApp = () => {
-    const count = useSelector((state) => state.count)
-    const dispatch = useDispatch();
-    const handleIncrement = () => {
-        dispatch(incrementCounter());
-    }
-
-    const handleDecrement = () => {
-        dispatch(decrementCounter());
-    }
-    const handleReset=()=>{
-        dispatch(resetCounter());
+    const [students, setStudent] = useState([]);
+    const [searchTerm, setSearchTerm]=useState("");
+    const [newSearchTerm, setNewSearchTerm]=useState([]);
+    useEffect(() => {
+        fetch("student.json")
+            .then(res => res.json())
+            .then(data => setStudent(data))
+    })
+    const handleSearch = () => {
+        const search= students.filter(student => student.name.toLowerCase().includes(searchTerm.toLowerCase()) )
+        setNewSearchTerm(search)
     }
     return (
-        <div className='text-center'>
-            <h1 className='text-lg'>Counter Information section</h1>
-            <h2 className='text-xl py-3'>Count : {count}</h2>
+        <div className="text-center">
+            <h1>Student Length: {students.length}</h1>
+            <input
+                type="text"
+                placeholder="Search by name"
+                className="border p-3 "
+                value={searchTerm} onChange={(e)=> setSearchTerm(e.target.value)}
+            />
+            <button className="btn btn-primary" onClick={handleSearch}> Search</button>
 
-            <div className='flex justify-center gap-5'>
-                <button onClick={handleIncrement} className='btn btn-primary'>Increment</button>
-                <button onClick={handleReset} className="btn btn-primary">RESET</button>
-                <button onClick={handleDecrement} className='btn btn-primary'>Decrement</button>
+
+            <div>
+                <ul>
+                    {newSearchTerm.map(student => (
+                        <li key={student.id}>
+                            {student.name} - Class: {student.class} - Roll: {student.roll}
+                        </li>
+                    ))}
+                </ul>
             </div>
         </div>
     );

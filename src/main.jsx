@@ -10,6 +10,8 @@ import CounterApp from './components/CounterApp.jsx'
 import store from './components/store.js'
 import { Provider } from 'react-redux'
 import Pant from './components/Pant.jsx'
+import Crad from './components/Service/Crad.jsx'
+// import { ThemeContext } from './components/Service/reducers/ThemeContext.js'
 
 
 const router = createBrowserRouter([
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "card",
+        element: <Crad></Crad>
       },
       {
         path: "tab",
@@ -35,16 +41,20 @@ const router = createBrowserRouter([
         element: <CounterApp></CounterApp>
       },
       {
-        path:"pant",
-        element:<Pant></Pant>
+        path: "pant",
+        element: <Pant></Pant>
       }
     ]
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Provider store={store}>
-      <RouterProvider router={router}></RouterProvider>
-    </Provider>
+    {/* <ThemeContext> */}
+      <Provider store={store}>
+        <RouterProvider router={router}></RouterProvider>
+      </Provider>
+    {/* </ThemeContext> */}
+
+
   </React.StrictMode>,
 )

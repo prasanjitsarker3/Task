@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "name": "Conference 2023",
+        "title": "Annual Conference",
+        "location": "Grand Convention Center",
+        "events":"Recent",   
+        "eventCorners": [
+            "Tech Expo",
+            "Networking Lounge"
+        ],
+        "zones": 3,
+        "date": "August 15-17, 2023",
+        "privacy": "Public",
+        "images": {
+            "mainImage": "https://img.freepik.com/premium-photo/abstract-blurred-photo-conference-hall-seminar-room-with-speakers-stage_41418-2622.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+            "gallery": [
+                "https://img.freepik.com/premium-photo/abstract-blurred-photo-conference-hall-seminar-room-with-speakers-stage_41418-2622.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+                "https://img.freepik.com/free-photo/male-business-executive-giving-speech_107420-63822.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+                "https://img.freepik.com/premium-photo/one-standing-middle-meeting_1127-22524.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Workshop Series",
+        "title": "Skill Building Workshops",
+        "location": "Community Hall",
+        "events":"Up Comming",
+        "eventCorners": [
+            "Creative Zone",
+            "Learning Lab"
+        ],
+        "zones": 2,
+        "date": "September 5-10, 2023",
+        "privacy": "Invitation",
+        "images": {
+            "mainImage": "https://img.freepik.com/premium-photo/rear-view-audience-conference-hall-seminar-meeting_41418-2958.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+            "gallery": [
+                "https://img.freepik.com/premium-photo/rear-view-audience-conference-hall-seminar-meeting_41418-2958.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+                "https://img.freepik.com/premium-photo/audience-conference-hall_386094-30.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph",
+                "https://img.freepik.com/premium-photo/people-sitting-talking-with-group_53876-134673.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=sph"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Festival Extravaganza",
+        "title": "Cultural Festival",
+        "location": "City Park",
+        "events":"Present",
+        "eventCorners": [
+            "Food Court",
+            "Artisan Bazaar"
+        ],
+        "zones": 4,
+        "date": "October 20-22, 2023",
+        "privacy": "Family",
+        "images": {
+            "mainImage": "https://img.freepik.com/premium-photo/many-people-throwing-powder-paint-into-air_1304-179.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+            "gallery": [
+                "https://img.freepik.com/premium-photo/many-people-throwing-powder-paint-into-air_1304-179.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+                "https://img.freepik.com/premium-photo/people-crowd-concert-make-video-recordings-pics-smartphone_367038-3150.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+                "https://img.freepik.com/premium-photo/midjourney-digital-painting-art_456341-425.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+            ]
+        }
+    }
+]
+

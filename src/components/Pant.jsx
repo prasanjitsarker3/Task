@@ -54,7 +54,7 @@ const Pant = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='relative  '>
+                    <div className='relative  '> 
                         <img className='w-full md:h-[500px] bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 21)]' src="https://img.freepik.com/free-photo/sale-from-jean-texture_1323-267.jpg?w=740&t=st=1691263616~exp=1691264216~hmac=3575980827b9057645f41fa58cc716499760a6baa2889bdce146317b822ce9ef" alt="" srcset="" />
                         <div className='absolute bottom-12 left-1/2 transform -translate-x-1/2 '>
                             <p className='text-white  font-bold text-2xl md:px-16'>সবচেয়ে চেয়ে কম দামে আমাদের থেকে কিনুন।</p>

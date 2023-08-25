@@ -1,0 +1,65 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "eventName": "Conference",
+        "title": "Innovations in Technology",
+        "imageUrl": "https://img.freepik.com/premium-photo/audience-conference-hall_386094-30.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 2,
+        "eventName": "Workshop X",
+        "title": "Mastering Data Science",
+        "imageUrl": "https://img.freepik.com/premium-photo/group-creative-people-working-brainstorming-together_53876-9848.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 3,
+        "eventName": "Music Festival",
+        "title": "Harmony in the Park",
+        "imageUrl": "https://img.freepik.com/free-photo/back-view-crowd-fans-watching-live-concert-performance-6_1562-631.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 4,
+        "eventName": "Art Exhibition",
+        "title": "Expressions of Creativity",
+        "imageUrl": "https://img.freepik.com/premium-psd/interior-design-mockup-with-canvas-tripods_36148-208.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 5,
+        "eventName": "Sports Tournament",
+        "title": "Championship Clash",
+        "imageUrl": "https://img.freepik.com/free-photo/medium-shot-happy-kids-with-prize_23-2149271051.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 6,
+        "eventName": "Food Fair",
+        "title": "Culinary Delights",
+        "imageUrl": "https://img.freepik.com/premium-photo/blur-scene-night-street-market_1339-82727.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 7,
+        "eventName": "Charity Gala",
+        "title": "Building a Better Tomorrow",
+        "imageUrl": "https://img.freepik.com/free-photo/charity-donation-heart-graphic-concept_53876-21246.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 8,
+        "eventName": "Tech Summit",
+        "title": "Unleashing Digital Potential",
+        "imageUrl": "https://img.freepik.com/premium-photo/blank-screen-laptop-computer-with-blurred-people-background_213438-5483.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 9,
+        "eventName": "Fashion Show",
+        "title": "Elegance Redefined",
+        "imageUrl": "https://img.freepik.com/free-photo/surrealist-portrait-fashionable-woman_23-2149224680.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      },
+      {
+        "id": 10,
+        "eventName": "Film Screening",
+        "title": "Cinematic Masterpieces",
+        "imageUrl": "https://img.freepik.com/free-photo/professional-cameraman-recording-poeple-watching-football-public-place-night_1268-18138.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais"
+      }
+    ]
+  }
+  

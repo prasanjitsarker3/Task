@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "mostPopular": false,
+        "title": "For individuals",
+        "image": "https://cdn-icons-png.flaticon.com/128/1077/1077012.png",
+        "tier": "Bronze",
+        "description": "Basic event management package",
+        "price": 500,
+        "features": [
+            "Event planning assistance",
+            "Venue selection guidance",
+            "Vendor recommendations"
+        ]
+    },
+    {
+        "id": 2,
+        "mostPopular": true,
+        "title": "For startups",
+        "image": "https://cdn-icons-png.flaticon.com/128/553/553416.png",
+        "tier": "Silver",
+        "description": "Intermediate event management package",
+        "price": 1000,
+        "features": [
+            "Event planning assistance",
+            "Venue selection guidance",
+            "Vendor recommendations",
+            "Day-of coordination",
+            "Guest management"
+        ]
+    },
+    {
+        "title":"For big companies",
+        "id": 3,
+        "mostPopular": false,
+        "image": "https://cdn-icons-png.flaticon.com/128/6463/6463127.png",
+        "tier": "Gold",
+        "description": "Premium event management package",
+        "price": 2000,
+        "features": [
+            "Event planning assistance",
+            "Venue selection guidance",
+            "Vendor recommendations",
+            "Day-of coordination",
+            "Guest management",
+            "Customized decorations",
+            "RSVP tracking"
+        ]
+    }
+]

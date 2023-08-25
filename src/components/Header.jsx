@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const options = <>
         <li><Link to="/">Home</Link></li>
+        <li><Link to="/card">Card</Link></li>
         <li><Link to="/tab">Tab Product</Link></li>
         <li><Link to="/search">Search</Link></li>
         <li><Link to="/counter">Counter</Link></li>
-        <li><Link to="/pant">Pant</Link></li>
+        {/* <li><Link to="/pant">Pant</Link></li> */}
     </>
     return (
-        <div>
+        <div> 
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
