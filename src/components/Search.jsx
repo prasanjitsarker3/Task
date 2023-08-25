@@ -29,7 +29,8 @@ const Search = () => {
                     </label>
                     <input
                         type="text"
-                        id="departureStation"
+                        // This is Heder file commmands
+                        id="departureStation" 
                         className="w-full px-4 py-2 border rounded-md focus:ring focus:ring-indigo-500 focus:outline-none"
                         value={departureStation}
                         onChange={(e) => setDepartureStation(e.target.value)}
