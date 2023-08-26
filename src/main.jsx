@@ -11,6 +11,7 @@ import store from './components/store.js'
 import { Provider } from 'react-redux'
 import Pant from './components/Pant.jsx'
 import Crad from './components/Service/Crad.jsx'
+import AxiosData from './components/Service/AxiosData.jsx'
 // import { ThemeContext } from './components/Service/reducers/ThemeContext.js'
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "pant",
         element: <Pant></Pant>
+      },
+      {
+        path:"axios",
+        element:<AxiosData></AxiosData>
       }
     ]
   }
